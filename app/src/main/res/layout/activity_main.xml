@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Hint : Suggests proper replies to texts"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+
+        />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/smart_reply_button"
+        android:textColor="#FFF"
+        android:text="Smart Reply"
+        android:fontFamily="@font/couture_bold"
+        android:background="@drawable/main_buttons_backgorund"
+
+        />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Hint : Labels Everything in image"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+
+        />
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/image_labeling_button"
+        android:textColor="#FFF"
+        android:text="Image Labeling"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/couture_bold"
+        android:background="@drawable/main_buttons_backgorund"
+        />
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Hint : Scans text from images"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+
+        />
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/text_recognizer_button"
+        android:textColor="#FFF"
+        android:text="Text Recognizer"
+        android:fontFamily="@font/couture_bold"
+        android:background="@drawable/main_buttons_backgorund"
+        />
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Hint : Identifies the language of an input"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+
+        />
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/language_iden_button"
+        android:textColor="#FFF"
+        android:text="Language identifier"
+        android:fontFamily="@font/couture_bold"
+        android:background="@drawable/main_buttons_backgorund"
+        />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Hint : Translation to and from 50+ languages"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+
+        />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:id="@+id/language_translation_button"
+        android:textColor="#FFF"
+        android:text="Language Translation"
+        android:fontFamily="@font/couture_bold"
+        android:background="@drawable/main_buttons_backgorund"
+        />
+
+
+
+
+</LinearLayout>
